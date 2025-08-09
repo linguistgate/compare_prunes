@@ -1,0 +1,6 @@
+# Temp files and OS cruft
+*.swp
+*.tmp
+*.log
+.DS_Store
+/tmp/

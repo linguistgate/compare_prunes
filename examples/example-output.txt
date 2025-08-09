@@ -1,0 +1,18 @@
+=== STEP 6: Comparisons ===
+
+--- Packages removed from pellets prune because they're optional dependencies ---
+go  <- optional for hugo
+python  <- optional for mkdocs,anki
+
+--- In BOTH pellets (filtered) and pacman orphan list ---
+libfoo
+libbar
+
+--- Only in pellets prune (after filtering optionals) ---
+extra-lib
+
+--- Only in pacman orphan list ---
+dev-only-lib
+
+Pellets prune BEFORE filtering: 15
+Pellets prune AFTER filtering:  12
